@@ -1,4 +1,4 @@
-# norminette-action demo
+# norminette-action demo &middot; ![norminette](https://github.com/alexandregv/norminette-action-demo/workflows/norminette/badge.svg)
 
 This is a simple demo for [norminette-action](https://github.com/alexandregv/norminette-action), a GitHub Action for 42School's norminette linter.
 
@@ -6,9 +6,10 @@ This is a simple demo for [norminette-action](https://github.com/alexandregv/nor
 
 You can see two C files, ok.c and ko.c, which are obviously a correct and incorrect file regarding to 42's Norm.  
 
-The third and only important file is [.github/workflows/main.yml](.github/workflows/main.yml), which contains CI workflow.  
-Here I defined two jobs, each for one version of the Norm. The only difference is `@v2`/`@v3` on lines [11](https://github.com/alexandregv/norminette-action-demo/blob/master/.github/workflows/main.yml#L11) and [18](https://github.com/alexandregv/norminette-action-demo/blob/master/.github/workflows/main.yml#L11).  
+The third and only important file is [.github/workflows/norminette.yml](.github/workflows/norminette.yml), which contains CI workflow.  
+Here I defined two jobs, each for one version of the Norm. The only difference is `@v2`/`@v3` on lines [12](https://github.com/alexandregv/norminette-action-demo/blob/master/.github/workflows/norminette.yml#L12) and [19](https://github.com/alexandregv/norminette-action-demo/blob/master/.github/workflows/norminette.yml#L19).  
 
-You can check CI results on each commit, or with the Actions button at the top of the repository.
+You can check CI results on each commit, or with the Actions button at the top of the repository.  
+I also added a [badge](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/adding-a-workflow-status-badge) at the top of this README.
 
 ![Screenshot](screenshot.jpg)
