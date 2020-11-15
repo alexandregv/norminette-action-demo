@@ -13,3 +13,11 @@ You can check CI results on each commit, or with the Actions button at the top o
 I also added a [badge](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/adding-a-workflow-status-badge) at the top of this README.
 
 ![Screenshot](screenshot.jpg)
+
+## See also
+
+* [norminette-action](https://github.com/alexandregv/norminette-action) - The GitHub Action this repo demonstrates.
+* [norminette-docker](https://github.com/alexandregv/norminette-docker) - A docker image for norminette. Used by this action.
+* [norminette-vim](https://github.com/alexandregv/norminette-vim) - Vim integration for norminette. Displays norm errors directly inside Vim.
+
+All of these are compatible with Norm version 2 and 3.
